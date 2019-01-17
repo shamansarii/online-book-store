@@ -1,0 +1,101 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fefefe24;
+}
+
+.brand-info-container {
+    margin-left: 1em;
+}
+
+.brand-info-container>* {
+    margin: 0;
+}
+
+.brand-info-container>h3 {
+    font-size: 1em;
+}
+
+.brand-info-container>p {
+    font-size: 13px;
+}
+
+.container {
+    margin-top: 1em;
+}
+
+.book-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-info img {
+    margin-right: 1em;
+}
+
+
+.text-info {
+    height: 100%;
+}
+
+.text-info .author {
+    font-size: 12px;
+}
+
+.text-info .desc {
+    font-size: 14px;
+}
+
+.input-group button {
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    width: 145px;
+    margin: 0 !important;
+}
+
+.form-group {
+    margin: 0;
+}
+
+input {
+    text-align: center;
+}
+
+.bottom-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.alert {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.price-container {
+    margin-right: 1em;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0;
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 444px) {
+    .form-group {
+        margin-top: 1em;
+    }
+}
