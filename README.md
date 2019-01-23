@@ -1,6 +1,6 @@
 ONLINE BOOK STORE
 -----------------
-You can see website here: https://shamansarii.github.io/send-msg-app/
+You can see website here: https://shamansarii.github.io/online-book-store/
 
 ### APP FEATURES
 
